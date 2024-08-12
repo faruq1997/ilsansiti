@@ -485,7 +485,7 @@ Buka Undangan
 
 <!-- Modal -->
 <div class="modal fade" id="amplopModal" tabindex="-1" role="dialog" aria-labelledby="amplopModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="amplopModalLabel">Dana Wallet</h5>
@@ -494,8 +494,7 @@ Buka Undangan
         </button>
       </div>
       <div class="modal-body text-center">
-        <p>Nomor Dana Wallet: <strong id="danaNumber">081234567890</strong></p>
-        <button class="btn btn-primary" onclick="copyDanaNumber()">Salin Nomor</button>
+        <p>Nomor Dana Wallet: <strong id="danaNumber">081234567890</strong></p><button type="button" class="theme-btn" onclick="copyDanaNumber()">Salin Nomor</button>
         <br><br>
         <img src="qr.png" alt="QR Code" class="img-fluid">
       </div>
