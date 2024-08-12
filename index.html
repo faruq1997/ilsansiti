@@ -470,9 +470,9 @@ Undangan Pernikahan
 Siti &amp; Ilsan
 </h2>
 <div class="pt-2">
-<p class="font-weight-bold pt-4">
-Anda diundang untuk hadir dalam acara pernikahan Kami.
-</p>
+<p class="font-weight-bold pt-2">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+<p class="font-weight-bold pt-2" id="kepada"></p>
+<small>*mohon maaf jika ada kesalahan penulisan nama dan gelar</small>
 </div>
 <button type="button" class="theme-btn mb-3" data-dismiss="modal" id="open-play">
 <i class="fi fi-rr-envelope-open"></i>
@@ -629,5 +629,8 @@ Buka Undangan
     }(window.jQuery);
 </script>
 <script src="https://inveet.id/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="aa4da392c280ca28cc47aec5-|49" defer></script>
+    <script>
+function GetURLParameter(e){for(var t=window.location.search.substring(1).split("&"),r=0;r<t.length;r++){var a=t[r].split("=");if(a[0]==e)return a[1]}}var ke=GetURLParameter("kepada");document.getElementById("kepada").innerHTML=decodeURIComponent(ke);
+</script>
 </body>
 </html>
